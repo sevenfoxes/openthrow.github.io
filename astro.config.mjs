@@ -11,14 +11,21 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Getting Started',
-					slug: 'getting-started'
+					items: [
+						{ label: 'Creating a Shell', slug: 'getting-started' },
+					]
 				},
 				{
 					label: 'Self-Sealing Stem Bolt',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'overview', slug: 'sssb/overview' },
-						{ label: 'stems', items: [
+						{
+							label: 'interconnect',
+							slug: 'sssb/interconnect'
+						},
+						{ label: 'stems',
+							items: [
 							{label: 'openThrow (default)', slug: 'sssb/stems/ot'},
 							{label: 'FD Stem', slug: 'sssb/stems/fd'},
 							{label: 'Cabal Guts', slug: 'sssb/stems/od'}
