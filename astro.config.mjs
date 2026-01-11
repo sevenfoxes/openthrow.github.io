@@ -16,6 +16,19 @@ export default defineConfig({
 					]
 				},
 				{
+					label: 'Hub',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'overview', slug: 'hub/overview' },
+						{ label: 'Available Hubs',
+							items: [
+								{label: 'Type C', slug: 'hub/type-c'},
+								{label: 'Spec XS', slug: 'hub/spec-xs'},
+							]
+						},
+					],
+				},
+				{
 					label: 'Self-Sealing Stem Bolt',
 					items: [
 						// Each item here is one entry in the navigation menu.

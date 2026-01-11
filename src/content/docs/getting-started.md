@@ -1,8 +1,11 @@
 ---
-title: Creating a Shell
+title: Getting Started
 description: Making a yo-yo
 ---
 
+If you're looking to make your own shell, you can use the OnShape shell starter. openThrow uses onShape since public data is free and it is very beginner friendly.
+
+## Creating a Shell
 
 **NOTE**: Before you begin, you should <a href="https://www.onshape.com/en/sign-up" target="_blank" rel="noopener noreferrer">create an OnShape account</a>
 
@@ -12,4 +15,3 @@ description: Making a yo-yo
 3. Edit as desired. The necessary dimensions are already set, the rest is up to the designer.
 
 ![picture of the shell with dimensions](../../assets/shell-example.png)
-

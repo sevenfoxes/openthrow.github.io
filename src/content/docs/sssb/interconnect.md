@@ -4,7 +4,7 @@ description: Element for connecting to a yo-yo shell
 ---
 The interconnect is the part at the base of the response recess that allows the connecting with the stem system.
 
-## Critical Dimensions
+### Critical Dimensions
 - For creating a shell, it's possible to start with a radius 12.55mm circle.
 
 ![picture of the interconnect](../../../assets/sssb/interconnect.png)
